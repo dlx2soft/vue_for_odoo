@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <template id="assets_backend" inherit_id="web.assets_backend" name="Web Backend">
+            <xpath expr="." position="inside">
+                <!--vue-->
+                <script type="text/javascript" src="/vue_for_odoo/static/lib/vue/vue.global.js"/>
+                <script type="text/javascript" src="/vue_for_odoo/static/lib/element-ui/index.full.min.js"/>
+                <script type="text/javascript" src="/vue_for_odoo/static/lib/element-ui/index.iife.min.js"/>
+                <link rel="stylesheet" type="text/css" href="/vue_for_odoo/static/lib/element-ui/theme-chalk/index.css"/>
+            </xpath>
+        </template>
+    </data>
+</odoo>
