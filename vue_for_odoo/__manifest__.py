@@ -16,8 +16,11 @@
     'depends': ['base'],
     'assets': {
         'web.assets_backend': [
-            'vue_for_odoo/static/lib/vue/*',
-            'vue_for_odoo/static/lib/element-ui/**/*',
+            'vue_for_odoo/static/lib/vue/vue.global.js',
+            'vue_for_odoo/static/lib/element-ui/index.full.min.js',
+            'vue_for_odoo/static/lib/element-ui/index.iife.min.js',
+            'vue_for_odoo/static/lib/element-ui/theme-chalk/index.css',
+
         ],
     },
 }
