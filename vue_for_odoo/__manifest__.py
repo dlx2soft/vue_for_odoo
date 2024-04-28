@@ -16,8 +16,8 @@
     'depends': ['base'],
     'assets': {
         'web.assets_backend': [
-            'preview_attachment/static/lib/vue/*',
-            'preview_attachment/static/lib/element-ui/**/*',
+            'vue_for_odoo/static/lib/vue/*',
+            'vue_for_odoo/static/lib/element-ui/**/*',
         ],
     },
 }
